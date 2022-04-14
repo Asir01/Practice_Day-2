@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int num1,num2,product;
+	printf("Input the first integer:");
+	scanf("%d" ,&num1);
+	printf("Input the second integer:");
+	scanf("%d",&num2);
+	product=num1*num2;
+	printf("Product of the above two integers: %d",product);
+	return  0;
+}
